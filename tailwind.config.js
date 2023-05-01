@@ -6,6 +6,9 @@ export default {
   },
   theme: {
     extend: {
+      screens: {
+        md: '900px'
+      },
       spacing: {
         '0.5': '0.5rem',
         '1': '1rem',
@@ -30,12 +33,19 @@ export default {
         '85': '85%',
         '90': '90%'
       },
+      width: {
+        nav: 'calc(100% - 8.4rem)'
+      },
+      height: {
+        main: 'calc(100vh - 10rem)'
+      },
       fontSize: {
         xs: '1.4rem',
         sm: '1.6rem',
         md: '2rem',
         lg: '2.8rem',
-        xl: '3.4rem'
+        xl: '3.4rem',
+        '2xl': '5.8rem'
       },
       colors: {
         white: 'hsl(0, 0%, 98%)',
