@@ -4,6 +4,8 @@ import { Header } from './components/Header.jsx'
 import { Main } from './components/Main.jsx'
 import App from './App.jsx'
 
+const assets = './src/'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
